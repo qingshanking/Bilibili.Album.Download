@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Main
 {
@@ -21,7 +17,7 @@ namespace Main
         {
             //picUrl = "http://203.156.245.58/sipgl/login/img";
             //savePath = "D:/img/" + DateTime.Now.ToString("HHmmssffff") + ".jpg";
-            savePath += "/" + DateTime.Now.ToString("HHmmssffff") + ".jpg";
+            savePath += "/" + DateTime.Now.ToString("yyyyMMddHHmmssffff") + ".jpg";
             bool value = false;
             WebResponse response = null;
             Stream stream = null;
@@ -30,9 +26,15 @@ namespace Main
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(picUrl);
                 if (timeOut != -1) request.Timeout = timeOut;
                 response = request.GetResponse();
+                if (response == null)                
+                    return value;             
                 stream = response.GetResponseStream();
                 if (!response.ContentType.ToLower().StartsWith("text/"))
                     value = SaveBinaryFile(response, savePath);
+            }
+            catch (Exception)
+            {
+                return value;
             }
             finally
             {

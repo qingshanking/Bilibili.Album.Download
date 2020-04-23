@@ -12,3 +12,17 @@ D:\Projects\MyCode\Bilibili.Download\Main\obj\Debug\Main.csproj.CopyComplete
 D:\Projects\MyCode\Bilibili.Download\Main\bin\Debug\CSkin.dll
 D:\Projects\MyCode\Bilibili.Download\Main\bin\Debug\CSkin.xml
 D:\Projects\MyCode\Bilibili.Download\Main\obj\Debug\Main.Main.resources
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\Main.exe.config
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\Main.exe
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\Main.pdb
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\CSkin.dll
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\CSkin.xml
+D:\Projects\GitHub\Bilibili.Album.Download\Main\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.Main.resources
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.Properties.Resources.resources
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.csproj.GenerateResource.cache
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.csproj.CopyComplete
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.exe
+D:\Projects\GitHub\Bilibili.Album.Download\Main\obj\Debug\Main.pdb

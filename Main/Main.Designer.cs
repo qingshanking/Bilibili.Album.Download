@@ -93,7 +93,7 @@
             this.Version_Label.Name = "Version_Label";
             this.Version_Label.Size = new System.Drawing.Size(47, 17);
             this.Version_Label.TabIndex = 9;
-            this.Version_Label.Text = "V 1.0.0";
+            this.Version_Label.Text = "V 1.0.1";
             // 
             // Main
             // 
