@@ -9,14 +9,13 @@
 ![运行截图2](https://cdn.jsdelivr.net/gh/ndas95038/image/src/bilibili.Album.02.png)
 ![运行截图3](https://cdn.jsdelivr.net/gh/ndas95038/image/src/bilibili.Album.03.png)
 
-
-## 下载工具
-- [最新发行版本下载](https://github.com/qingshanking/Bilibili.Album.Download/releases)
+## 使用帮助
+![运行截图3](https://file.bcrjl.com/images/2020/Bilibili.Album.Download.gif01.gif)
 
 ## 更新说明
-- [V1.0.1](https://github.com/qingshanking/Bilibili.Album.Download/releases) 常见Bug修复
+- [V1.0.1](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.0.1/v1.0.1.zip) 常见Bug修复
 	- 	修复相簿编号报错问题;
 	-   修复哔哩哔哩相簿404报错问题;
 	-	优化相册文件命名问题;
-- [V1.0.0](https://github.com/qingshanking/Bilibili.Album.Download/releases) 基础版本发布
+- [V1.0.0](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.0.0/v1.0.0.zip) 基础版本发布
     
