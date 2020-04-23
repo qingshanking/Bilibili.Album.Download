@@ -10,7 +10,7 @@
 ![运行截图3](https://cdn.jsdelivr.net/gh/ndas95038/image/src/bilibili.Album.03.png)
 
 ## 使用帮助
-![运行截图3](https://file.bcrjl.com/images/2020/Bilibili.Album.Download.gif01.gif)
+![使用动态](https://cdn.jsdelivr.net/gh/qingshanking/Bilibili.Album.Download/image/Bilibili.Album.Download.gif01.gif)
 
 ## 更新说明
 - [V1.0.1](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.0.1/v1.0.1.zip) 常见Bug修复
