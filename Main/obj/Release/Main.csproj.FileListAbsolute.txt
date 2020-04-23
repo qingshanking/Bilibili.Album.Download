@@ -1,0 +1,14 @@
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\Main.exe.config
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\Main.exe
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\Main.pdb
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\CSkin.dll
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\Newtonsoft.Json.dll
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\CSkin.xml
+D:\Projects\MyCode\Bilibili.Download\Main\bin\Release\Newtonsoft.Json.xml
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.Properties.Resources.resources
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.csproj.GenerateResource.cache
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.csproj.CoreCompileInputs.cache
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.csproj.CopyComplete
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.exe
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.pdb
+D:\Projects\MyCode\Bilibili.Download\Main\obj\Release\Main.Main.resources
