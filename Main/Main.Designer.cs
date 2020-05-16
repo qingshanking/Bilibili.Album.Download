@@ -110,6 +110,7 @@
             this.MinimizeBox = false;
             this.Name = "Main";
             this.Text = "哔哩哔哩相簿 下载工具";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

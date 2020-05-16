@@ -103,5 +103,11 @@ namespace Main
         {
             MessageBox.Show("仅供用于学习和交流，请勿用于商业用途。");
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            //版本说明
+            Version_Label.Text = "V 1.1.0";
+        }
     }
 }

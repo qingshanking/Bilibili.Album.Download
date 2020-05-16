@@ -13,6 +13,10 @@
 ![使用动态](https://cdn.jsdelivr.net/gh/qingshanking/Bilibili.Album.Download/image/Bilibili.Album.Download.gif01.gif)
 
 ## 更新说明
+- [V1.1.0](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.1.0/v1.1.0.zip) 解析域名变更
+	-	更新接口数据，变更域名；
+	-	优化域名解析错误报错；
+	-	其他部分优化；
 - [V1.0.1](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.0.1/v1.0.1.zip) 常见Bug修复
 	- 	修复相簿编号报错问题;
 	-   修复哔哩哔哩相簿404报错问题;
