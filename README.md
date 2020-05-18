@@ -13,6 +13,10 @@
 ![使用动态](https://cdn.jsdelivr.net/gh/qingshanking/Bilibili.Album.Download/image/Bilibili.Album.Download.gif01.gif)
 
 ## 更新说明
+- [V1.2.0](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.2.0/v1.2.0.zip) 小版本优化
+	-	优化域名接口；
+	-	优化文件夹异常报错；
+	-	其他小功能优化；
 - [V1.1.0](https://github.com/qingshanking/Bilibili.Album.Download/releases/download/v1.1.0/v1.1.0.zip) 解析域名变更
 	-	更新接口数据，变更域名；
 	-	优化域名解析错误报错；

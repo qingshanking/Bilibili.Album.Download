@@ -27,7 +27,7 @@ namespace Main
             {
                 //int doc_id = Convert.ToInt32(doc_id_str);
                 var ressstr = HttpRequest(doc_id_str);
-                if (ressstr.Contains("未能解析此远程名称"))
+                if (ressstr.Contains("未能解析此远程名称")||ressstr.Contains("html"))
                 {
                     MessageBox.Show("网络异常");
                     return;
@@ -37,6 +37,8 @@ namespace Main
                 if (hm.code == 0)
                 {
                     long_text.Text += "\n获取成功：相簿标题：" + hm.data.title + ",开始下载，请等待";
+                    //去除特殊字符，防止创建文件报错
+                    hm.data.title = Transferred(hm.data.title);
                     string savePath = AppDomain.CurrentDomain.BaseDirectory + hm.data.title;
                     DirFileHelper.CreateDirectory(savePath);
                     foreach (var item in hm.data.pictures)
@@ -53,7 +55,7 @@ namespace Main
             {//不是INT
                 long_text.Text += "\n文章id错误";
             }
-        }        
+        }
 
 
         /// <summary>
@@ -65,7 +67,7 @@ namespace Main
         {
             try
             {
-                string url = "http://h-bilibili.xs.170601.xyz/v2/getdetail.php";
+                string url = "https://h-bilibili.xs.170601.xyz/v2/getdetail.php";
                 HttpHelper http = new HttpHelper();
                 HttpItem item = new HttpItem()
                 {
@@ -90,9 +92,8 @@ namespace Main
             }
             catch (Exception ex)
             {
-                return "";
+                return "未能解析此远程名称";
             }
-
         }
         /// <summary>
         /// 关于按钮
@@ -107,7 +108,25 @@ namespace Main
         private void Main_Load(object sender, EventArgs e)
         {
             //版本说明
-            Version_Label.Text = "V 1.1.0";
+            Version_Label.Text = "V 1.2.0";
+        }
+
+        /// <summary>
+        /// 去除特殊字符，防止报错
+        /// </summary>
+        /// <param name="Meaning"></param>
+        /// <returns></returns>
+        private string Transferred(string Meaning)
+        {
+            Meaning = Meaning.Replace("?", "");
+            Meaning = Meaning.Replace("？", "");
+            Meaning = Meaning.Replace("\"", "");
+            Meaning = Meaning.Replace("/", "");
+            Meaning = Meaning.Replace("*", "");
+            Meaning = Meaning.Replace("<", "");
+            Meaning = Meaning.Replace(">", "");
+            Meaning = Meaning.Replace("|", "");
+            return Meaning;
         }
     }
 }
